@@ -9,4 +9,3 @@ To install only you have to give execute permissions as root:
 
 
 <code>#chmod +x file<code> \
- <code>$./file<code>
