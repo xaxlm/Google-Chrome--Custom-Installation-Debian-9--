@@ -6,7 +6,6 @@ Ultima actualización: 22/08/2017
 Installation
 
 To install only you have to give execute permissions as root and execute:
-chmod + x <file>
+<code>chmod +x file<code>
 
-Then run:
-./ <file>>
+<code>./file<code>
