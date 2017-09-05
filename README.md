@@ -7,5 +7,5 @@ Installation
 
 To install only you have to give execute permissions as root:
 
-chmod + x <file>
-./<file>
+chmod + x "<file>"
+./"<file>"
