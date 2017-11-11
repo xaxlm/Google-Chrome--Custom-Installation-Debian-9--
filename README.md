@@ -5,12 +5,9 @@ This is a Bash script in which Sublime Text is custom installed in Debian 9, wit
 
 - Last Update: 11/11/2017
 
-Installation
+Install
+# chmod +x <file.sh>
+# ./<file.sh>
 
-To install only you have to give execute permissions as root and execute:
-
-<code>#chmod +x file<code>
-
-<code>#./file<code>
 UNISTALL
 # bash /usr/local/directory/package/remove.sh
