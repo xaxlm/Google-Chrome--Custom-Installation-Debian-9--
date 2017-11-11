@@ -11,6 +11,6 @@ INSTALL
 
 #./<file.sh>
 
-UNISTALL
+UNINSTALL
 
 #bash /usr/local/directory/package/remove.sh
