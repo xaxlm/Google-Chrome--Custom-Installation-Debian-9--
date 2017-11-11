@@ -14,7 +14,7 @@ tar czvf google-chrome-stable_current_amd64.tar.gz opt/ usr/ etc/
 echo '>>> Ingresando a /usr/local/...'
 cd /usr/local/
 echo 'Instalando dependencias adicionales...'
-apt-get install libindicator7 libdbusmenu-gtk4 libdbusmenu-glib4 libappindicator1
+apt-get install libindicator7 libdbusmenu-gtk4 libdbusmenu-glib4 libappindicator1 gconf-service libgconf-2-4 fonts-liberations xdg-utils
 echo 'Dependencias instaladas...'
 sleep 2
 echo 'Se va a instalar en /usr/local/...'
