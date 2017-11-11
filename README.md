@@ -5,7 +5,8 @@ This is a Bash script in which Sublime Text is custom installed in Debian 9, wit
 
 - Last Update: 11/11/2017
 
-INSTALL -->
+INSTALL
+
 #chmod +x <file.sh>
 
 #./<file.sh>
