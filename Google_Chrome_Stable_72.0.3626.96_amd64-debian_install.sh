@@ -1,5 +1,5 @@
 #!/bin/bash
-# Ultima actualización: 22/08/2017
+# Ultima actualización: 06/02/2019
 cd /
 #
 # Se descarga Google Chrome
@@ -14,7 +14,7 @@ tar czvf google-chrome-stable_current_amd64.tar.gz opt/ usr/ etc/
 echo '>>> Ingresando a /usr/local/...'
 cd /usr/local/
 echo 'Instalando dependencias adicionales...'
-apt-get install libindicator7 libdbusmenu-gtk4 libdbusmenu-glib4 libappindicator1 gconf-service libgconf-2-4 fonts-liberations xdg-utils
+apt-get install libindicator7 libdbusmenu-gtk4 libdbusmenu-glib4 libappindicator1 gconf-service libgconf-2-4 fonts-liberation xdg-utils
 echo 'Dependencias instaladas...'
 sleep 2
 echo 'Se va a instalar en /usr/local/...'
@@ -50,7 +50,7 @@ chmod 4755 google-chrome/opt/google/chrome/chrome-sandbox
 cd /usr/share/applications/
 touch google-chrome.desktop
 echo '[Desktop Entry]' > google-chrome.desktop
-echo 'Version=60.0.3112.101 empaquetado de .deb' >> google-chrome.desktop
+echo 'Version=72.0.3626.96 empaquetado de .deb' >> google-chrome.desktop
 echo 'Name=Google Chrome' >> google-chrome.desktop
 echo 'Comment=Suite Navegador Web' >> google-chrome.desktop
 echo 'Exec=/usr/local/'$DIRINST'/google-chrome/opt/google/chrome/google-chrome' >> google-chrome.desktop
@@ -94,7 +94,7 @@ chmod 744 remove.sh
 touch README.txt
 echo 'Google Chrome' > README.txt
 echo 'Idioma=es_MX' >> README.txt
-echo 'Version=60.0.3112.101 empaquetado de .deb' >> README.txt
+echo 'Version=72.0.3626.96 empaquetado de .deb' >> README.txt
 echo 'Arquitectura=x86_64' >> README.txt
 echo 'Esta es una instalación no invasiva.' >> README.txt
 echo 'Para desinstalar ejecute el fichero remove.sh como root.' >> README.txt
