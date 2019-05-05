@@ -1,5 +1,5 @@
 #!/bin/bash
-# Ultima actualización: 06/02/2019
+# Ultima actualización: 05/05/2019
 cd /
 #
 # Se descarga Google Chrome
@@ -50,7 +50,7 @@ chmod 4755 google-chrome/opt/google/chrome/chrome-sandbox
 cd /usr/share/applications/
 touch google-chrome.desktop
 echo '[Desktop Entry]' > google-chrome.desktop
-echo 'Version=72.0.3626.96 empaquetado de .deb' >> google-chrome.desktop
+echo 'Version=74.3729.131 (Build oficial) (64 bits) empaquetado de .deb' >> google-chrome.desktop
 echo 'Name=Google Chrome' >> google-chrome.desktop
 echo 'Comment=Suite Navegador Web' >> google-chrome.desktop
 echo 'Exec=/usr/local/'$DIRINST'/google-chrome/opt/google/chrome/google-chrome' >> google-chrome.desktop
@@ -94,7 +94,7 @@ chmod 744 remove.sh
 touch README.txt
 echo 'Google Chrome' > README.txt
 echo 'Idioma=es_MX' >> README.txt
-echo 'Version=72.0.3626.96 empaquetado de .deb' >> README.txt
+echo 'Version=74.3729.131 (Build oficial) (64 bits) empaquetado de .deb' >> README.txt
 echo 'Arquitectura=x86_64' >> README.txt
 echo 'Esta es una instalación no invasiva.' >> README.txt
 echo 'Para desinstalar ejecute el fichero remove.sh como root.' >> README.txt
