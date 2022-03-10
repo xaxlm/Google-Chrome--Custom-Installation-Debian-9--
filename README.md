@@ -1,6 +1,7 @@
 # Google-Chrome--Custom-Installation-Debian-9--
 This is a Bash script in which Google Chrome is custom installed in Debian 9, with more complete control of the installation site. Code optimization will be implemented gradually. The code can be downloaded, used or modified.
 
+- [Update date: 09/03/2022] Google-Chrome-Stable_99.0.4844.51 (Build oficial) (64 bits) Español
 - [Update date: 28/12/2021] Google-Chrome-Stable_96.0.4664.110-1 (Build oficial) (64 bits) Español
 - [Update date: 06/06/2021] Google-Chrome-Stable_91.0.4472.77 (Build oficial) (64 bits) Español
 - [Update date: 28/05/2020] Google-Chrome-Stable_83.0.4103.61 (Build oficial) (64 bits) Español
