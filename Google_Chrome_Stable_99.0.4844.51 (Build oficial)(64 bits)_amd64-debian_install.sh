@@ -1,5 +1,5 @@
 #!/bin/bash
-# Ultima actualización: 28/12/2021  Versión Versión 96.0.4664.110-1 (Build oficial) (64 bits)
+# Ultima actualización: 09/03/20221  Versión Versión 99.0.4844.51 (Build oficial) (64 bits)
 cd /
 #
 # Se descarga Google Chrome
